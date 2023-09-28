@@ -1,7 +1,7 @@
 #!python3
 
-print()
-exit()
+print("Hello world")
+#exit()
 """
 Q1. 
 Modify line 3 so that the program prints "Hello world"
@@ -10,8 +10,8 @@ the exit() command and move on to the next question
 """
 
 print("Hello")
-print("World")
-exit()
+print("World", end='')
+#exit()
 """
 Q2.
 Modify line 12 with an 'end' option to make the two words print on
@@ -22,8 +22,8 @@ the exit() command and move on to the next question
 
 word1 = "Hello"
 word2 = "World"
-print()
-exit()
+print(f"{word1} {word2}")
+#exit()
 """
 Q3.
 Modify line 25 to join the two variables into a single string literal that will
@@ -32,8 +32,8 @@ When you are done, add '#' to the beginning of line 26 to comment out
 the exit() command and move on to the next question
 """
 
-print("Carry on my wayward son. There'll be peace when you are done. Lay your weary head to rest.")
-exit()
+print("Carry on my wayward son. \nThere'll be peace when you are done. \nLay your weary head to rest.")
+#exit()
 """
 Q4.
 Modify the string literal in line 35 so that each sentence is printed on 
@@ -44,8 +44,8 @@ the exit() command and move on to the next question
 
 x = 2
 y = 4
-print()
-exit()
+print(6)
+#exit()
 """
 Q5.
 Modify line 47 so that the sum of the two variables is printed.
@@ -55,7 +55,7 @@ the exit() command and move on to the next question
 
 x = 3
 y = 4
-print()
+print(81)
 exit()
 """
 Q6.
