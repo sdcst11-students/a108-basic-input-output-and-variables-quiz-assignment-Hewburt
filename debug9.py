@@ -2,7 +2,7 @@
 """
 Debug this program so that it runs
 """
-x = input("Enter a number")
+x = input("Enter a number: ")
 y = 2
-answer = x+y
-print(The answer is + answer)
+answer = int(x) + y  
+print("The answer is", answer)
